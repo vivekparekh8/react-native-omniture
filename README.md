@@ -10,8 +10,8 @@
 Adobe Android & iOS Mobile APIs exist for native android and iOS. So, exposing the same for React Native.
 -[] **iOS - yet to implement**
 ## Installation
-npm install --save github:vivekparekh8/moduleOmniture
-Get libs for both from https://github.com/Adobe-Marketing-Cloud/mobile-services
+npm install --save github:vivekparekh8/moduleOmniture <br />
+Get libs for both from https://github.com/Adobe-Marketing-Cloud/mobile-services <br />
 - For android, add your respective ADBMobileConfig.json for configuring your project under android/app/src/main/assets/
 
 ## API Reference
