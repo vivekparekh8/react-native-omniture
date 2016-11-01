@@ -6,9 +6,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
-  "dependencies": {
-    "react": "15.3.2",
-    "react-native": "0.34.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekparekh8/react-native-omniture"
   },
   "jest": {
     "preset": "jest-react-native"
