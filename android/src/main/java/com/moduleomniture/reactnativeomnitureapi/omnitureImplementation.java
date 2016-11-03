@@ -109,9 +109,8 @@ public class omnitureImplementation extends ReactContextBaseJavaModule {
     @ReactMethod
     public void trackAction(String state, final ReadableMap contextData) {
         Analytics.trackAction((String)state, this.convert(contextData));
-        String a = Analytics.trackingTimedActionExists("motologin")?"yes":"no";
-        Toast.makeText(getReactApplicationContext(),a,Toast.LENGTH_LONG).show();
-
+        // String a = Analytics.trackingTimedActionExists("motologin")?"yes":"no";
+        // Toast.makeText(getReactApplicationContext(),a,Toast.LENGTH_LONG).show();
     }
     @ReactMethod
     public void setEnvironment() {
