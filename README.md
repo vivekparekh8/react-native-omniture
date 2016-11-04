@@ -1,18 +1,24 @@
-# moduleOmniture
+# react-native-omniture
 
 ## Code Example
 
-```import omniture from 'moduleOmniture'```<br />
-```omniture.trackAction(str, contextData)```
+```
+import RNOmniture from 'react-native-omniture'
+RNOmniture.trackAction('anyString', {yourContextDataObj})
+```
 
 ## Motivation
 
 Adobe Android & iOS Mobile APIs exist for native android and iOS. So, exposing the same for React Native.
--[] **iOS - yet to implement**
+
 ## Installation
-npm install --save github:vivekparekh8/moduleOmniture <br />
+npm install --save github:vivekparekh8/react-native-omniture <br />
 Get libs for both from https://github.com/Adobe-Marketing-Cloud/mobile-services <br />
 - For android, add your respective ADBMobileConfig.json for configuring your project under android/app/src/main/assets/
+- For iOS
+ * add ADBMobile.h (downloaded from above [url](https://github.com/Adobe-Marketing-Cloud/mobile-services)) to your React Native xcode project
+ * add libsqlite.tbd, libsqlite3.0.tbd, AdobeMobileLibrary.a to dependencies **(Link Binary with Libraries in Build Phases tab in xcode for each of your project targets)**
+ * Also, include your config JSON file in xcode project for each target
 
 ## API Reference
  - https://github.com/Adobe-Marketing-Cloud/mobile-services
