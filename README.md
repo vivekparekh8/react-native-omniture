@@ -23,6 +23,7 @@ Get libs for both from https://github.com/Adobe-Marketing-Cloud/mobile-services 
 ## API Reference
  - https://github.com/Adobe-Marketing-Cloud/mobile-services
  - https://facebook.github.io/react-native/docs/native-modules-ios.html
+ - http://facebook.github.io/react-native/docs/native-modules-android.html
 
 ## Tests
 
