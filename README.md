@@ -35,4 +35,5 @@ Let people know how they can dive into the project, include important links to t
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+JAR file and .A file for adobe sdk are subject to adobe's repository on github.
+https://github.com/Adobe-Marketing-Cloud/mobile-services/blob/master/LICENSE.md
